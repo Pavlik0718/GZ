@@ -252,62 +252,6 @@ body {
   border-radius: 5px;
   border: 2px solid #444;
 }
-/* Світлий приклад для мобільного */
-@media (max-width: 100%) {
-  body {
-    font-size: 16px;
-    padding: 10px;
-  }
-
-  /* Центруємі елементи і робимо їх гнучкими */
-  .game-header {
-    flex-direction: column;
-    align-items: centre;
-    text-align: centre;
-  }
-
-  /* Зменшуємо логотип, щоб він не займав багато місця */
-  .main-logo {
-    width: 80px;
-    margin-bottom: 10px;
-  }
-
-  /* Більший шрифт для назви гри */
-  .game-title {
-    font-size: 20px;
-  }
-
-  /* Центруємо скріншоти */
-  .screenshots {
-    text-align: centre;
-  }
-
-  /* Зробимо зображення гнучкими та відповідними */
-  .small-img {
-    width: 90%;
-    max-width: 300px;
-    margin: 10px 0;
-  }
-}
-<style>
-  body {
-    margin: 0;
-    padding: 1rem;
-    font-family: sans-serif;
-  }
-
-  .container {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-  }
-
-  nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-
   @media (max-width: 768px) {
     nav {
       flex-direction: column;
